@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/Swati.jpeg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/Swati.jpeg" alt="Swati Mishra" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Swati Mishra">Swati Mishra</h1>
+
+          <p class="title">Pre- Final year Student at IGDTUW </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:swati01mishra01@gmail.com" class="contact-link">swati01mishra01@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91-9818245163" class="contact-link">+91-9818245163</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-02-03">Feb 03, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Paharganj,New Delhi,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/SwatiMishra01" class="social-link">
+              <ion-icon name="logo-github">
+            </ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/the_swati_mishra03" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/swati-mishra-8a5a18259" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi! I'm a dedicated and curious Front-End Developer with a strong foundation in HTML, CSS, and JavaScript.
+             I'm currently sharpening my skills in Data Structures & Algorithms in C++ (DSA)
+             and diving into the full MERN stack to become a well-rounded web developer.
+          </p>
+
+          <p>
+            I’ve participated in exciting hackathons like Accenture’s Gen AI Sprint, where I explored smart shopping using multi-agent AI, and built a Python-based UNO bot project.
+             These experiences have boosted my problem-solving skills and expanded my interest in building intelligent, user-focused applications.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/DSA.png" alt="Dsa icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DSA in C++</h4>
+
+                <p class="service-item-text">
+                    I regularly practice DSA to improve my problem-solving skills, working through challenges on platforms like LeetCode and GeeksforGeeks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/MERN.png" alt="MERN icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Mern Stack</h4>
+
+                <p class="service-item-text">
+                    I’m building my full-stack development skills by learning the MERN stack — MongoDB, Express.js, React.js, and Node.js. .
+                </p>
+              </div>
+
+            
+
+           
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+
+        </div>
+       
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">INDIRA GANDHI DELHI TECHNOLOGICAL UNIVERSITY FOR WOMEN (IGDTUW)</h4>
+
+              <span>2022 — 2026</span>
+
+              <p class="timeline-text">
+                I'm currently pursuing a Bachelor of Technology (B.Tech) in Electronics and Communication Engineering with a specialization in Artificial Intelligence (ECE-AI)at Indira Gandhi Delhi Technological University for Women (IGDTUW), Delhi.
+                 With a current CGPA of 7.13 (till 5th semester), my academic journey has equipped me with a strong foundation in both core electronics and modern computational intelligence, complemented by hands-on experience in programming, data structures, and AI-focused technologies.
+
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">St.Anthony's Girls Senior Secondary School</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Percentage: 88.5% ||
+Focused on Physics, Chemistry, and Mathematics, building strong analytical and conceptual problem-solving skills
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">St.Anthony's Girls Senior Secondary School</h4>
+
+              <span>2007 — 2019</span>
+
+              <p class="timeline-text">
+                Percentage: 80% ||
+Developed a strong academic base across core subjects, particularly in Science and Mathematics
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Teaching </h4>
+  
+                <span> 2022 - present</span>
+  
+                <p class="timeline-text">
+                    I possess over two years of experience in teaching Science and Mathematics to students from grades 9 to 12, including aspirants preparing for competitive examinations such as NEET and JEE. During my tenure at Mishra Classes, I focused on delivering concept-driven instruction, fostering analytical thinking, and tailoring complex subjects into structured, comprehensible modules. My teaching methodology emphasized clarity, exam-oriented strategies, and nurturing a deep academic curiosity among students.
+                </p>
+  
+              </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Vision And Deep Learning</h4>
+
+              <span>June 2024 - Aug 2024</span>
+
+              <p class="timeline-text">
+                Gaining hands-on experience with image processing, object detection, and model training. Worked
+                with tools like OpenCV, TensorFlow/Keras, and Python to build and evaluate deep learning models for real-world visual
+                tasks.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cyber Security and Ethical Hacking INTERN</h4>
+
+              <span>June 2024 - Aug 2024</span>
+
+              <p class="timeline-text">
+                Gaining hands-on experience in network security, vulnerability assessment, and penetration testing.
+Worked with tools like Nmap, and Kali Linux to identify threats and simulate real-world attacks in a controlled
+environment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web/App Development and Digital Marketing  INTERN</h4>
+
+              <span>May 2023 - July 2023</span>
+
+              <p class="timeline-text">
+                Implemented cutting edge techniques like HTML, CSS, JavaScript focusing on front-end development.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DSA(C++)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Front-end including HTML,CSS,JavaScript</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Back-end including MongoDB, Express.js, Node.js,MySQL</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            
+
+          </div>
+
+          <ul class="project-list">
+
+            <li>
+              <a href="https://swatimishra01.github.io/AI-assistance-chatbot/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/Chatbot.jpg" alt="Chatbot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI-assistance-chatbot </h3>
+
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="https://swatimishra01.github.io/Caesar_Cipher/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/caesar_cipher.jpg" alt="caesar_cipher" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Caesar_Cipher</h3>
+
+                <p class="project-category">Encyption/Decryption</p>
+
+              </a>
+            </li>
+            <li>
+                <a href="https://swatimishra01.github.io/MISHRA-CLASSES-web/">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./images/mishra_classes.jpg" alt="mishra_classes" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Mishra Classes Website</h3>
+  
+                  <p class="project-category">Front-end</p>
+  
+                </a>
+              </li>
+
+            <li >
+              <a href="https://swatimishra01.github.io/netflix-clone/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/netflix.jpg" alt="netflix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Netflix Clone</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li >
+                <a href="https://swatimishra01.github.io/meme-generator/">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./images/meme.jpg" alt="meme" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Meme-Generator</h3>
+  
+                  <p class="project-category">CSS/Javascript</p>
+  
+                </a>
+              </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.sih.gov.in/">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/sih.png" alt="sih" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  
+
+                  <h3 class="h3 blog-item-title">Smart India Hackathon</h3>
+
+                  <p class="blog-text">
+                    Passesd internal round 2 of SIH 2025.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/ed8e8124-e0bd-4432-ba78-84d5a3b844f6.jpg">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/flipkart.jpg" alt="flipkart" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  
+
+                  <h3 class="h3 blog-item-title">Flipkart Runaway: Season 4 </h3>
+
+                  <p class="blog-text">
+                    Participated in online coding challenge of Flipkart Runaway: Season 4 2025 gaining coding experience.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.sih.gov.in/">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/accenture.png" alt="accenture" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  
+
+                  <h3 class="h3 blog-item-title">Accenture</h3>
+
+                  <p class="blog-text">
+                    Participating in Hack the Future: A Gen AI Sprint Powered by Data. Making Shop Gen-ai for reliable shopping experience with personalized recommendations.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://unstop.com/hackathons/code-patti-the-ultimate-uno-bot-challenge-maulana-azad-national-institute-of-technology-manit-bhopal-1461538">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/codepatti.jpg" alt="codepatti" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  
+
+                  <h3 class="h3 blog-item-title">code-patti Hackathon</h3>
+
+                  <p class="blog-text">
+                    The Ultimate UNO Bot Challenge using Python:It’s not just about writing code—it’s about strategizing, predicting, and winning the game using your programming and logical thinking skills. From colour control to wild card decisions, every move counts!
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3501.5198616291864!2d77.2102230752895!3d28.64414897565842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM4JzM4LjkiTiA3N8KwMTInNDYuMSJF!5e0!3m2!1sen!2sin!4v1744890775260!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
